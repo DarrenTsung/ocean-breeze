@@ -38,4 +38,4 @@ placed inside `bin` folder.
  * http://webstaff.itn.liu.se/~stegu/TNM022-2005/perlinnoiselinks/perlin-noise-math-faq.html - great article on implementing perlin noise.
  * https://github.com/rodrigosetti/azteroids - used as reference for cmake and
    glfw, thanks!
-
+ * http://www.davidcornette.com/glsl/glsl.html - copied shader code for phong shading and modified it, thanks!
