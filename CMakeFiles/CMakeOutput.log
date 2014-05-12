@@ -230,3 +230,43 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1233827574/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1233827574.dir/build.make CMakeFiles/cmTryCompileExec1233827574.dir/build
+/usr/local/Cellar/cmake/2.8.12.1/bin/cmake -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1233827574.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1233827574.dir/CheckIncludeFiles.c.o   -c /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1233827574
+/usr/local/Cellar/cmake/2.8.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1233827574.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1233827574.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1233827574  
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1963713298/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1963713298.dir/build.make CMakeFiles/cmTryCompileExec1963713298.dir/build
+/usr/local/Cellar/cmake/2.8.12.1/bin/cmake -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1963713298.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1963713298.dir/CheckSymbolExists.c.o   -c /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1963713298
+/usr/local/Cellar/cmake/2.8.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1963713298.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1963713298.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1963713298  
+
+File /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/Cellar/cmake/2.8.12.1/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator
+CMAKE_SOURCE_DIR = /Users/darrentsung/Documents/Personal/Coding/ocean-breeze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator
+CMAKE_BINARY_DIR = /Users/darrentsung/Documents/Personal/Coding/ocean-breeze
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,16 +82,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/2.8.12.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -113,9 +103,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,17 +133,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Terrainator
+# Target rules for targets named Ocean-breeze
 
 # Build rule for target.
-Terrainator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Terrainator
-.PHONY : Terrainator
+Ocean-breeze: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Ocean-breeze
+.PHONY : Ocean-breeze
 
 # fast build rule for target.
-Terrainator/fast:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/build
-.PHONY : Terrainator/fast
+Ocean-breeze/fast:
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/build
+.PHONY : Ocean-breeze/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -472,7 +462,7 @@ src/app.o: src/app.cpp.o
 
 # target to build an object file
 src/app.cpp.o:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/app.cpp.o
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/app.cpp.o
 .PHONY : src/app.cpp.o
 
 src/app.i: src/app.cpp.i
@@ -480,7 +470,7 @@ src/app.i: src/app.cpp.i
 
 # target to preprocess a source file
 src/app.cpp.i:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/app.cpp.i
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/app.cpp.i
 .PHONY : src/app.cpp.i
 
 src/app.s: src/app.cpp.s
@@ -488,7 +478,7 @@ src/app.s: src/app.cpp.s
 
 # target to generate assembly for a file
 src/app.cpp.s:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/app.cpp.s
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/app.cpp.s
 .PHONY : src/app.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -496,7 +486,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -504,7 +494,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -512,7 +502,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/pnoise.o: src/pnoise.cpp.o
@@ -520,7 +510,7 @@ src/pnoise.o: src/pnoise.cpp.o
 
 # target to build an object file
 src/pnoise.cpp.o:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/pnoise.cpp.o
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/pnoise.cpp.o
 .PHONY : src/pnoise.cpp.o
 
 src/pnoise.i: src/pnoise.cpp.i
@@ -528,7 +518,7 @@ src/pnoise.i: src/pnoise.cpp.i
 
 # target to preprocess a source file
 src/pnoise.cpp.i:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/pnoise.cpp.i
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/pnoise.cpp.i
 .PHONY : src/pnoise.cpp.i
 
 src/pnoise.s: src/pnoise.cpp.s
@@ -536,7 +526,7 @@ src/pnoise.s: src/pnoise.cpp.s
 
 # target to generate assembly for a file
 src/pnoise.cpp.s:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/src/pnoise.cpp.s
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/src/pnoise.cpp.s
 .PHONY : src/pnoise.cpp.s
 
 # Help Target
@@ -545,11 +535,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Terrainator"
+	@echo "... Ocean-breeze"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... uninstall"

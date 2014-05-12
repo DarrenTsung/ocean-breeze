@@ -4,6 +4,10 @@
 #include "pnoise.h"
 #include <Eigen/Core>
 #include <vector>
+#include <GLUT/glut.h> // Gluint
+
+#include <iostream>
+#include <fstream>
 
 struct Keys {
     bool up    = false;
@@ -18,8 +22,13 @@ class App {
     private:
         PNoise noise;
         int width, height;
+        float wave_angle = 0;
+        GLuint program;
 
         std::vector<std::vector<Eigen::Vector3f> > vertices;
+        std::vector<std::vector<Eigen::Vector3f> > normals;
+
+        std::string loadFileToString(char const * const fname);
 
     public:
         // struct for key input
@@ -38,6 +47,10 @@ class App {
         void update(double delta);
         // draws everything in the application
         void draw();
+
+        // set up the shaders
+        void setup_shaders();
+
 };
 
 // log a formatted string to stderr

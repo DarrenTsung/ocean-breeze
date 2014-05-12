@@ -50,6 +50,12 @@ static void key_callback (GLFWwindow* window, int key, int scancode, int action,
             case GLFW_KEY_SPACE:
                 application.keys_pressed.space = key_pressed;
                 break;
+            case GLFW_KEY_M:
+                glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
+                break;
+            case GLFW_KEY_N:
+                glPolygonMode( GL_FRONT_AND_BACK, GL_FILL );
+                break;
         }
     }
 
@@ -85,6 +91,8 @@ int main(int argc, char **argv) {
 
     application.initialize();
 
+    application.setup_shaders();
+
     while (!glfwWindowShouldClose(window))
     {
         // run until user clicks exit on window
@@ -106,8 +114,6 @@ int main(int argc, char **argv) {
         glRotatef(application.camera_pitch, 1.0f, 0.0f, 0.0f);
         glRotatef(application.camera_roll, 0.0f, 0.0f, -1.0f);
 
-
-
         // get the time difference between the last time we ran the loop
         double delta = 0.0;
         double time;
@@ -116,6 +122,7 @@ int main(int argc, char **argv) {
             delta = time - prevTime;
         }
         prevTime = time;
+
 
         application.update(delta);
         application.draw();

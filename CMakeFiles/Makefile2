@@ -50,44 +50,44 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/Cellar/cmake/2.8.12.1/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator
+CMAKE_SOURCE_DIR = /Users/darrentsung/Documents/Personal/Coding/ocean-breeze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator
+CMAKE_BINARY_DIR = /Users/darrentsung/Documents/Personal/Coding/ocean-breeze
 
 #=============================================================================
-# Target rules for target CMakeFiles/Terrainator.dir
+# Target rules for target CMakeFiles/Ocean-breeze.dir
 
 # All Build rule for target.
-CMakeFiles/Terrainator.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/depend
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  5 6 7
-	@echo "Built target Terrainator"
-.PHONY : CMakeFiles/Terrainator.dir/all
+CMakeFiles/Ocean-breeze.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/depend
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  3 4 5
+	@echo "Built target Ocean-breeze"
+.PHONY : CMakeFiles/Ocean-breeze.dir/all
 
 # Include target in all.
-all: CMakeFiles/Terrainator.dir/all
+all: CMakeFiles/Ocean-breeze.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Terrainator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 20
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Terrainator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
-.PHONY : CMakeFiles/Terrainator.dir/rule
+CMakeFiles/Ocean-breeze.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 20
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Ocean-breeze.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
+.PHONY : CMakeFiles/Ocean-breeze.dir/rule
 
 # Convenience name for target.
-Terrainator: CMakeFiles/Terrainator.dir/rule
-.PHONY : Terrainator
+Ocean-breeze: CMakeFiles/Ocean-breeze.dir/rule
+.PHONY : Ocean-breeze
 
 # clean rule for target.
-CMakeFiles/Terrainator.dir/clean:
-	$(MAKE) -f CMakeFiles/Terrainator.dir/build.make CMakeFiles/Terrainator.dir/clean
-.PHONY : CMakeFiles/Terrainator.dir/clean
+CMakeFiles/Ocean-breeze.dir/clean:
+	$(MAKE) -f CMakeFiles/Ocean-breeze.dir/build.make CMakeFiles/Ocean-breeze.dir/clean
+.PHONY : CMakeFiles/Ocean-breeze.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/Terrainator.dir/clean
+clean: CMakeFiles/Ocean-breeze.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -119,15 +119,15 @@ lib/glfw/preinstall: lib/glfw/tests/preinstall
 lib/glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f lib/glfw/CMakeFiles/uninstall.dir/build.make lib/glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f lib/glfw/CMakeFiles/uninstall.dir/build.make lib/glfw/CMakeFiles/uninstall.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 
 	@echo "Built target uninstall"
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -165,15 +165,15 @@ lib/glfw/src/preinstall:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35
 	@echo "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -219,15 +219,15 @@ lib/glfw/examples/preinstall:
 lib/glfw/examples/CMakeFiles/Boing.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Boing.dir/build.make lib/glfw/examples/CMakeFiles/Boing.dir/depend
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Boing.dir/build.make lib/glfw/examples/CMakeFiles/Boing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  1
 	@echo "Built target Boing"
 .PHONY : lib/glfw/examples/CMakeFiles/Boing.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/Boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/Boing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/Boing.dir/rule
 
 # Convenience name for target.
@@ -250,15 +250,15 @@ clean: lib/glfw/examples/CMakeFiles/Boing.dir/clean
 lib/glfw/examples/CMakeFiles/Gears.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Gears.dir/build.make lib/glfw/examples/CMakeFiles/Gears.dir/depend
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Gears.dir/build.make lib/glfw/examples/CMakeFiles/Gears.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  2
 	@echo "Built target Gears"
 .PHONY : lib/glfw/examples/CMakeFiles/Gears.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/Gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/Gears.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/Gears.dir/rule
 
 # Convenience name for target.
@@ -281,15 +281,15 @@ clean: lib/glfw/examples/CMakeFiles/Gears.dir/clean
 lib/glfw/examples/CMakeFiles/Simple.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Simple.dir/build.make lib/glfw/examples/CMakeFiles/Simple.dir/depend
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Simple.dir/build.make lib/glfw/examples/CMakeFiles/Simple.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  6
 	@echo "Built target Simple"
 .PHONY : lib/glfw/examples/CMakeFiles/Simple.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/Simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/Simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/Simple.dir/rule
 
 # Convenience name for target.
@@ -312,15 +312,15 @@ clean: lib/glfw/examples/CMakeFiles/Simple.dir/clean
 lib/glfw/examples/CMakeFiles/Split\ View.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f "lib/glfw/examples/CMakeFiles/Split View.dir/build.make" "lib/glfw/examples/CMakeFiles/Split View.dir/depend"
 	$(MAKE) -f "lib/glfw/examples/CMakeFiles/Split View.dir/build.make" "lib/glfw/examples/CMakeFiles/Split View.dir/build"
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  7
 	@echo "Built target Split View"
 .PHONY : lib/glfw/examples/CMakeFiles/Split\ View.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/Split\ View.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 "lib/glfw/examples/CMakeFiles/Split View.dir/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/Split\ View.dir/rule
 
 # Convenience name for target.
@@ -343,15 +343,15 @@ clean: lib/glfw/examples/CMakeFiles/Split\ View.dir/clean
 lib/glfw/examples/CMakeFiles/Wave.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Wave.dir/build.make lib/glfw/examples/CMakeFiles/Wave.dir/depend
 	$(MAKE) -f lib/glfw/examples/CMakeFiles/Wave.dir/build.make lib/glfw/examples/CMakeFiles/Wave.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  8
 	@echo "Built target Wave"
 .PHONY : lib/glfw/examples/CMakeFiles/Wave.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/Wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/Wave.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/Wave.dir/rule
 
 # Convenience name for target.
@@ -421,15 +421,15 @@ lib/glfw/tests/preinstall:
 lib/glfw/tests/CMakeFiles/accuracy.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/accuracy.dir/build.make lib/glfw/tests/CMakeFiles/accuracy.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/accuracy.dir/build.make lib/glfw/tests/CMakeFiles/accuracy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  9
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  9
 	@echo "Built target accuracy"
 .PHONY : lib/glfw/tests/CMakeFiles/accuracy.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/accuracy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/accuracy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/accuracy.dir/rule
 
 # Convenience name for target.
@@ -452,15 +452,15 @@ clean: lib/glfw/tests/CMakeFiles/accuracy.dir/clean
 lib/glfw/tests/CMakeFiles/clipboard.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/clipboard.dir/build.make lib/glfw/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/clipboard.dir/build.make lib/glfw/tests/CMakeFiles/clipboard.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  10 11
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  10 11
 	@echo "Built target clipboard"
 .PHONY : lib/glfw/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/clipboard.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/clipboard.dir/rule
 
 # Convenience name for target.
@@ -483,15 +483,15 @@ clean: lib/glfw/tests/CMakeFiles/clipboard.dir/clean
 lib/glfw/tests/CMakeFiles/defaults.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/defaults.dir/build.make lib/glfw/tests/CMakeFiles/defaults.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/defaults.dir/build.make lib/glfw/tests/CMakeFiles/defaults.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  12
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  12
 	@echo "Built target defaults"
 .PHONY : lib/glfw/tests/CMakeFiles/defaults.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/defaults.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/defaults.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/defaults.dir/rule
 
 # Convenience name for target.
@@ -514,15 +514,15 @@ clean: lib/glfw/tests/CMakeFiles/defaults.dir/clean
 lib/glfw/tests/CMakeFiles/events.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/events.dir/build.make lib/glfw/tests/CMakeFiles/events.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/events.dir/build.make lib/glfw/tests/CMakeFiles/events.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  13 14
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  13 14
 	@echo "Built target events"
 .PHONY : lib/glfw/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/events.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/events.dir/rule
 
 # Convenience name for target.
@@ -545,15 +545,15 @@ clean: lib/glfw/tests/CMakeFiles/events.dir/clean
 lib/glfw/tests/CMakeFiles/fsaa.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/fsaa.dir/build.make lib/glfw/tests/CMakeFiles/fsaa.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/fsaa.dir/build.make lib/glfw/tests/CMakeFiles/fsaa.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  15 16
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  15 16
 	@echo "Built target fsaa"
 .PHONY : lib/glfw/tests/CMakeFiles/fsaa.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/fsaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/fsaa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/fsaa.dir/rule
 
 # Convenience name for target.
@@ -576,15 +576,15 @@ clean: lib/glfw/tests/CMakeFiles/fsaa.dir/clean
 lib/glfw/tests/CMakeFiles/gamma.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/gamma.dir/build.make lib/glfw/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/gamma.dir/build.make lib/glfw/tests/CMakeFiles/gamma.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  17 18
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  17 18
 	@echo "Built target gamma"
 .PHONY : lib/glfw/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/gamma.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/gamma.dir/rule
 
 # Convenience name for target.
@@ -607,15 +607,15 @@ clean: lib/glfw/tests/CMakeFiles/gamma.dir/clean
 lib/glfw/tests/CMakeFiles/glfwinfo.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/glfwinfo.dir/build.make lib/glfw/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/glfwinfo.dir/build.make lib/glfw/tests/CMakeFiles/glfwinfo.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  36 37
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  36 37
 	@echo "Built target glfwinfo"
 .PHONY : lib/glfw/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/glfwinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/glfwinfo.dir/rule
 
 # Convenience name for target.
@@ -638,15 +638,15 @@ clean: lib/glfw/tests/CMakeFiles/glfwinfo.dir/clean
 lib/glfw/tests/CMakeFiles/iconify.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/iconify.dir/build.make lib/glfw/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/iconify.dir/build.make lib/glfw/tests/CMakeFiles/iconify.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  38 39
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  38 39
 	@echo "Built target iconify"
 .PHONY : lib/glfw/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/iconify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/iconify.dir/rule
 
 # Convenience name for target.
@@ -669,15 +669,15 @@ clean: lib/glfw/tests/CMakeFiles/iconify.dir/clean
 lib/glfw/tests/CMakeFiles/joysticks.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/joysticks.dir/build.make lib/glfw/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/joysticks.dir/build.make lib/glfw/tests/CMakeFiles/joysticks.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  40
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  40
 	@echo "Built target joysticks"
 .PHONY : lib/glfw/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/joysticks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/joysticks.dir/rule
 
 # Convenience name for target.
@@ -700,15 +700,15 @@ clean: lib/glfw/tests/CMakeFiles/joysticks.dir/clean
 lib/glfw/tests/CMakeFiles/modes.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/modes.dir/build.make lib/glfw/tests/CMakeFiles/modes.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/modes.dir/build.make lib/glfw/tests/CMakeFiles/modes.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  41 42
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  41 42
 	@echo "Built target modes"
 .PHONY : lib/glfw/tests/CMakeFiles/modes.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/modes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/modes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/modes.dir/rule
 
 # Convenience name for target.
@@ -731,15 +731,15 @@ clean: lib/glfw/tests/CMakeFiles/modes.dir/clean
 lib/glfw/tests/CMakeFiles/peter.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/peter.dir/build.make lib/glfw/tests/CMakeFiles/peter.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/peter.dir/build.make lib/glfw/tests/CMakeFiles/peter.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  43
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  43
 	@echo "Built target peter"
 .PHONY : lib/glfw/tests/CMakeFiles/peter.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/peter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/peter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/peter.dir/rule
 
 # Convenience name for target.
@@ -762,15 +762,15 @@ clean: lib/glfw/tests/CMakeFiles/peter.dir/clean
 lib/glfw/tests/CMakeFiles/reopen.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/reopen.dir/build.make lib/glfw/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/reopen.dir/build.make lib/glfw/tests/CMakeFiles/reopen.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  44
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  44
 	@echo "Built target reopen"
 .PHONY : lib/glfw/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/reopen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/reopen.dir/rule
 
 # Convenience name for target.
@@ -793,15 +793,15 @@ clean: lib/glfw/tests/CMakeFiles/reopen.dir/clean
 lib/glfw/tests/CMakeFiles/sharing.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/sharing.dir/build.make lib/glfw/tests/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/sharing.dir/build.make lib/glfw/tests/CMakeFiles/sharing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  45
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  45
 	@echo "Built target sharing"
 .PHONY : lib/glfw/tests/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/sharing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/sharing.dir/rule
 
 # Convenience name for target.
@@ -824,15 +824,15 @@ clean: lib/glfw/tests/CMakeFiles/sharing.dir/clean
 lib/glfw/tests/CMakeFiles/tearing.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/tearing.dir/build.make lib/glfw/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/tearing.dir/build.make lib/glfw/tests/CMakeFiles/tearing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  46
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  46
 	@echo "Built target tearing"
 .PHONY : lib/glfw/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/tearing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/tearing.dir/rule
 
 # Convenience name for target.
@@ -855,15 +855,15 @@ clean: lib/glfw/tests/CMakeFiles/tearing.dir/clean
 lib/glfw/tests/CMakeFiles/threads.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/threads.dir/build.make lib/glfw/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/threads.dir/build.make lib/glfw/tests/CMakeFiles/threads.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  47 48
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  47 48
 	@echo "Built target threads"
 .PHONY : lib/glfw/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/threads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/threads.dir/rule
 
 # Convenience name for target.
@@ -886,15 +886,15 @@ clean: lib/glfw/tests/CMakeFiles/threads.dir/clean
 lib/glfw/tests/CMakeFiles/title.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/title.dir/build.make lib/glfw/tests/CMakeFiles/title.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/title.dir/build.make lib/glfw/tests/CMakeFiles/title.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  49
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  49
 	@echo "Built target title"
 .PHONY : lib/glfw/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/title.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/title.dir/rule
 
 # Convenience name for target.
@@ -917,15 +917,15 @@ clean: lib/glfw/tests/CMakeFiles/title.dir/clean
 lib/glfw/tests/CMakeFiles/windows.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/windows.dir/build.make lib/glfw/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) -f lib/glfw/tests/CMakeFiles/windows.dir/build.make lib/glfw/tests/CMakeFiles/windows.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles  50
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles  50
 	@echo "Built target windows"
 .PHONY : lib/glfw/tests/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/windows.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/funky-terrain-generator/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/darrentsung/Documents/Personal/Coding/ocean-breeze/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/windows.dir/rule
 
 # Convenience name for target.

@@ -25,9 +25,11 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeConfigurableFile.in"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeParseArguments.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CMakeUnixFindMake.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CheckIncludeFiles.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CheckLibraryExists.cmake"
   "/usr/local/Cellar/cmake/2.8.12.1/share/cmake/Modules/CheckSymbolExists.cmake"
@@ -57,9 +59,9 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
-  "bin/Terrainator.app/Contents/MacOS"
-  "bin/Terrainator.app/Contents/Info.plist"
-  "bin/Terrainator.app/Contents/Info.plist"
+  "bin/Ocean-breeze.app/Contents/MacOS"
+  "bin/Ocean-breeze.app/Contents/Info.plist"
+  "bin/Ocean-breeze.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -69,7 +71,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Terrainator.dir/DependInfo.cmake"
+  "CMakeFiles/Ocean-breeze.dir/DependInfo.cmake"
   "lib/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "lib/glfw/examples/CMakeFiles/Boing.dir/DependInfo.cmake"
