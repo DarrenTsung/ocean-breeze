@@ -2,6 +2,7 @@ Ocean-Breeze
 =======================
 Continuation of the [perlin noise generator](https://github.com/DarrenTsung/terrainator) project I made previously.
 This is work on a vertex shader in OpenGL to make calming waves of vertices (hence the name).
+![gif](img/gif-1.gif?raw=true)
 
 ## Dependencies
 
