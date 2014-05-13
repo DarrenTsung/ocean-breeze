@@ -1,7 +1,8 @@
 Ocean-Breeze
 =======================
 Continuation of the [perlin noise generator](https://github.com/DarrenTsung/terrainator) project I made previously.
-This is work on a vertex shader in OpenGL to make waves of vertices (hence the name).
+The sin-wave properties of the vertex are added on in the vertex shader (src/vshader1.vert) and the exercise was
+to figure out how to load / debug / compile shaders and link and use a program with those shaders.
 ![gif](img/gif-1.gif?raw=true)
 
 ## Dependencies

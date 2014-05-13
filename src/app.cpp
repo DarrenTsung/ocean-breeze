@@ -179,11 +179,11 @@ void App::setup_shaders() {
     //// create the vertex shader
     if (true) {
         // grab the source of the vshader
-        std::string vshader_string = loadFileToString("src/vshader1.txt");
+        std::string vshader_string = loadFileToString("src/vshader1.vert");
         GLchar const *vshader_source = vshader_string.c_str();
         GLint const vshader_length = vshader_string.size();
         // grab the source of the fshader
-        std::string fshader_string = loadFileToString("src/fshader1.txt");
+        std::string fshader_string = loadFileToString("src/fshader1.frag");
         GLchar const *fshader_source = fshader_string.c_str();
         GLint const fshader_length = fshader_string.size();
 
