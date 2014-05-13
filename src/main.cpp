@@ -78,7 +78,7 @@ int main(int argc, char **argv) {
         exit(EXIT_FAILURE);
 
     // create the window
-    window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Terrainator", NULL, NULL);
+    window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Ocean-breeze", NULL, NULL);
 
     // if window failed to create, terminate glfw
     if (!window) {
